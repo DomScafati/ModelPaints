@@ -38,7 +38,7 @@ import SwiftUI
 struct Swatch: View {
  var body: some View {
      Rectangle()
-         .fill(Color(hex: PaintPalettes.CitadelLike.calibanGreen) ?? .green)
+         .fill(Color(hex: ModelPaints.CitadelLike.calibanGreen) ?? .green)
          .frame(width: 100, height: 100)
          .cornerRadius(8)
  }
@@ -51,7 +51,7 @@ import ModelPaints
 import UIKit
 
 let button = UIButton(type: .system)
-button.backgroundColor = UIColor(hex: PaintPalettes.CitadelLike.mephistonRed)
+button.backgroundColor = UIColor(hex: ModelPaints.CitadelLike.mephistonRed)
 ```
 
 ## Roadmap
